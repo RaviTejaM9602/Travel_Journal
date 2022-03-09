@@ -1,6 +1,5 @@
 import React from "react"
 import location from "../Images/location-pin-solid.svg"
-import title from "../Images/MountFuji.png"
 
 export default function Travel(props){
     return (<section className="travel-frame"> 
