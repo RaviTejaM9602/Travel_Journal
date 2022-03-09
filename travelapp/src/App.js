@@ -11,8 +11,8 @@ export default function App(){
       item={info}
     /> )
 })
-    return (<div>
+    return (<div className="main">
       <Navbar />
-    {travelData}
+      {travelData}
     </div>)
 }
