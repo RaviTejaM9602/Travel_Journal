@@ -69,3 +69,29 @@
   line-height: 12px;
   color: #2B283A;
 }
+
+.nav--logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #b62626;
+}
+
+.nav--logo img {
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px);
+  background: #a39393;
+}
+
+.nav--logo h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  padding: 4px;
+}
