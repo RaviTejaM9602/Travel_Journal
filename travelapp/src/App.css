@@ -9,12 +9,13 @@
   justify-content: center;
   align-items: center;
   margin: 10px;
-  gap: 5px;
+  gap: 10px;
 }
 
 .travel-info {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .travel-location {
@@ -22,9 +23,49 @@
 }
 
 .travel-location .loction-logo {
-  width: 12px;
+  width: 7px;
+  height: 9.55px;
   color: #b62626;
   margin: 3px;
   align-items: baseline;
 }
 
+.travel-location .location {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-top: 3px;
+  align-content: center;
+  padding: 3px;
+}
+
+.travel-body .description {
+  width: 326px;
+  height: 45px;
+  left: 184px;
+  top: 203px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+}
+
+.travel-body .date {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 183px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
